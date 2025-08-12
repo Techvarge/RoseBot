@@ -3,7 +3,7 @@ from os import environ
 
 load_dotenv("config.env")
 
-BOT_TOKEN = environ.get("BOT_TOKEN")
+BOT_TOKEN = environ.get("8311583539:AAEvdhaFnfZQwJ3jNOAEHSfVCaTJL8t_aPE")
 API_ID = int(environ.get("API_ID"))
 API_HASH = environ.get("API_HASH")
 API_ID1 = int(environ.get("API_ID1"))
@@ -15,4 +15,5 @@ MONGO_URL = environ.get("MONGO_URL")
 ARQ_API_URL = environ.get("ARQ_API_URL")
 ARQ_API_KEY = environ.get("ARQ_API_KEY")
 COMMAND_PREFIXES = environ.get("COMMAND_PREFIXES")
+
 F_SUB_CHANNEL = environ.get("F_SUB_CHANNEL")
